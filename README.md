@@ -1,9 +1,14 @@
 # Resume Builder
 
-A modern, user-friendly resume builder application built with React. Create, customize, and export professional resumes with ease.
+A modern, user-friendly resume builder application built with React. Create, customize, and export professional resumes with ease. Powered by Google's Gemini AI to help you create more impactful resumes.
 
 ## 🌟 Features
 
+- **AI-Powered Content Generation**: Leverage Google's Gemini AI to:
+  - Generate professional summaries
+  - Enhance job descriptions
+  - Suggest relevant skills
+  - Optimize content for ATS systems
 - **Multiple Resume Templates**: Choose from various professional templates
 - **Real-time Preview**: See changes as you make them
 - **Export Options**: Download your resume in PDF and DOCX formats
@@ -53,6 +58,7 @@ The application will open in your default browser at `http://localhost:3000`
 - [React Router](https://reactrouter.com/) - Navigation
 - [docx](https://www.npmjs.com/package/docx) - DOCX file generation
 - [jsPDF](https://www.npmjs.com/package/jspdf) - PDF generation
+- [Google Gemini AI](https://ai.google.dev/) - AI-powered content generation
 
 ## 📦 Project Structure
 
@@ -78,6 +84,7 @@ REACT_APP_FIREBASE_PROJECT_ID=your_project_id
 REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
 REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 REACT_APP_FIREBASE_APP_ID=your_app_id
+REACT_APP_GEMINI_API_KEY=your_gemini_api_key
 ```
 
 ## 🚀 Deployment
